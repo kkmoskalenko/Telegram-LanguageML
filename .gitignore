@@ -1,4 +1,5 @@
 .idea/
 cmake-build-*/
+resources/snippets/
 
 .DS_Store
