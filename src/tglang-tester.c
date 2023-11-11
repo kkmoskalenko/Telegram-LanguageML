@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(int argc, char **argv) {
   if (argc != 2) {
@@ -29,6 +30,13 @@ int main(int argc, char **argv) {
 
   text[fsize] = 0;
 
-  printf("%d\n", tglang_detect_programming_language(text));
+  clock_t start, end;
+  start = clock();
+  enum TglangLanguage result = tglang_detect_programming_language(text);
+  end = clock();
+
+  double duration = ((double) (end - start)) / CLOCKS_PER_SEC;
+  printf("Result: %d, elapsed: %lf ms\n", result, 1000 * duration);
+
   return 0;
 }

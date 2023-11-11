@@ -1,5 +1,8 @@
 .idea/
 cmake-build-*/
+
 resources/snippets/
+resources/dataset/
+resources/*.zip
 
 .DS_Store
