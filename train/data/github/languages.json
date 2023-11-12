@@ -1,0 +1,109 @@
+{
+  "TGLANG_LANGUAGE_C": [
+    "c",
+    "h"
+  ],
+  "TGLANG_LANGUAGE_CPLUSPLUS": [
+    "cpp",
+    "cxx",
+    "cc",
+    "hpp",
+    "hh",
+    "hxx"
+  ],
+  "TGLANG_LANGUAGE_CSHARP": [
+    "cs"
+  ],
+  "TGLANG_LANGUAGE_CSS": [
+    "css"
+  ],
+  "TGLANG_LANGUAGE_DART": [
+    "dart"
+  ],
+  "TGLANG_LANGUAGE_DOCKER": [
+    "dockerfile"
+  ],
+  "TGLANG_LANGUAGE_FUNC": [
+    "fc"
+  ],
+  "TGLANG_LANGUAGE_GO": [
+    "go"
+  ],
+  "TGLANG_LANGUAGE_HTML": [
+    "html",
+    "htm",
+    "xhtml"
+  ],
+  "TGLANG_LANGUAGE_JAVA": [
+    "java"
+  ],
+  "TGLANG_LANGUAGE_JAVASCRIPT": [
+    "js",
+    "es6"
+  ],
+  "TGLANG_LANGUAGE_JSON": [
+    "json",
+    "json5"
+  ],
+  "TGLANG_LANGUAGE_KOTLIN": [
+    "kt",
+    "kts",
+    "ktm"
+  ],
+  "TGLANG_LANGUAGE_LUA": [
+    "lua"
+  ],
+  "TGLANG_LANGUAGE_NGINX": [
+    "conf",
+    "nginxconf"
+  ],
+  "TGLANG_LANGUAGE_OBJECTIVE_C": [
+    "m",
+    "mm"
+  ],
+  "TGLANG_LANGUAGE_PHP": [
+    "php"
+  ],
+  "TGLANG_LANGUAGE_POWERSHELL": [
+    "ps1",
+    "psm1",
+    "psd1"
+  ],
+  "TGLANG_LANGUAGE_PYTHON": [
+    "py"
+  ],
+  "TGLANG_LANGUAGE_RUBY": [
+    "rb"
+  ],
+  "TGLANG_LANGUAGE_RUST": [
+    "rs"
+  ],
+  "TGLANG_LANGUAGE_SHELL": [
+    "sh",
+    "bash",
+    "zsh"
+  ],
+  "TGLANG_LANGUAGE_SOLIDITY": [
+    "sol"
+  ],
+  "TGLANG_LANGUAGE_SQL": [
+    "sql"
+  ],
+  "TGLANG_LANGUAGE_SWIFT": [
+    "swift"
+  ],
+  "TGLANG_LANGUAGE_TL": [
+    "tl"
+  ],
+  "TGLANG_LANGUAGE_TYPESCRIPT": [
+    "ts",
+    "tsx"
+  ],
+  "TGLANG_LANGUAGE_XML": [
+    "xml",
+    "xsl",
+    "xsd",
+    "xslt",
+    "wsdl"
+  ]
+}
