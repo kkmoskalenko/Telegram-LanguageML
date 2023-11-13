@@ -21,10 +21,7 @@
     "dart"
   ],
   "TGLANG_LANGUAGE_DOCKER": [
-    "dockerfile"
-  ],
-  "TGLANG_LANGUAGE_FUNC": [
-    "fc"
+    "Dockerfile"
   ],
   "TGLANG_LANGUAGE_GO": [
     "go"
@@ -91,9 +88,6 @@
   ],
   "TGLANG_LANGUAGE_SWIFT": [
     "swift"
-  ],
-  "TGLANG_LANGUAGE_TL": [
-    "tl"
   ],
   "TGLANG_LANGUAGE_TYPESCRIPT": [
     "ts",
