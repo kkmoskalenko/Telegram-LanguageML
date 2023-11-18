@@ -3,4 +3,6 @@
 .idea/
 cmake-build-*/
 
+src/generated/
+
 libtglang.*
