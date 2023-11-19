@@ -1,4 +1,4 @@
-#include "../src/tglang.h"
+#include "tglang.h"
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -17,3 +17,20 @@
    based on GitHub Repos dataset (`TL` and `FUNC` languages are excluded).
 4. **Generated**: code snippets generated via ChatGPT by [tzador](https://github.com/tzador) for the first round of the
    competition.
+
+## Building
+
+To export a shared library `libtglang.so` built for Debian GNU/Linux 10 (buster) run the following command:
+
+```shell
+DOCKER_BUILDKIT=1 docker build --no-cache --target export-lib --output out .
+```
+
+> **NOTE**: Due to the generated C files with large nested if/else statements,
+> the compilation stage may take approximately 15 minutes.
+
+To evaluate metrics of the built library on a test dataset, run:
+
+```shell
+docker run --rm -it $(docker build -q .)
+```
