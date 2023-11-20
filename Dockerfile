@@ -42,9 +42,9 @@ RUN apt-get update && \
 COPY --from=build-lib /src/build/libtglang.so /test/libtglang.so
 COPY --from=build-tester /test/build/tglang-tester /test/tglang-tester
 
-COPY train/test.py /test/test.py
-COPY train/data/output/test.csv /test/test.csv
+COPY test/test.py /test/test.py
+ADD test/test.tar.gz /test/
 
 WORKDIR /test
 
-ENTRYPOINT ["python3", "test.py", "/test/tglang-tester", "/test/test.csv", "-m 5000"]
+ENTRYPOINT ["python3", "test.py", "/test/tglang-tester", "/test/test.csv"]

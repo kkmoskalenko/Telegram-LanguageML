@@ -6,6 +6,3 @@ cmake-build-*/
 
 train/
 out/
-
-!train/test.py
-!train/data/output/test.csv
