@@ -3,5 +3,4 @@
 .idea/
 cmake-build-*/
 
-src/generated/
 out/
