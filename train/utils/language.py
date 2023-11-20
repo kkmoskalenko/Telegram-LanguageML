@@ -2,56 +2,56 @@ from enum import Enum
 
 
 class Language(Enum):
-    TGLANG_LANGUAGE_OTHER = 0
-    TGLANG_LANGUAGE_C = 1
-    TGLANG_LANGUAGE_CPLUSPLUS = 2
-    TGLANG_LANGUAGE_CSHARP = 3
-    TGLANG_LANGUAGE_CSS = 4
-    TGLANG_LANGUAGE_DART = 5
-    TGLANG_LANGUAGE_DOCKER = 6
-    TGLANG_LANGUAGE_FUNC = 7
-    TGLANG_LANGUAGE_GO = 8
-    TGLANG_LANGUAGE_HTML = 9
-    TGLANG_LANGUAGE_JAVA = 10
-    TGLANG_LANGUAGE_JAVASCRIPT = 11
-    TGLANG_LANGUAGE_JSON = 12
-    TGLANG_LANGUAGE_KOTLIN = 13
-    TGLANG_LANGUAGE_LUA = 14
-    TGLANG_LANGUAGE_NGINX = 15
-    TGLANG_LANGUAGE_OBJECTIVE_C = 16
-    TGLANG_LANGUAGE_PHP = 17
-    TGLANG_LANGUAGE_POWERSHELL = 18
-    TGLANG_LANGUAGE_PYTHON = 19
-    TGLANG_LANGUAGE_RUBY = 20
-    TGLANG_LANGUAGE_RUST = 21
-    TGLANG_LANGUAGE_SHELL = 22
-    TGLANG_LANGUAGE_SOLIDITY = 23
-    TGLANG_LANGUAGE_SQL = 24
-    TGLANG_LANGUAGE_SWIFT = 25
-    TGLANG_LANGUAGE_TL = 26
-    TGLANG_LANGUAGE_TYPESCRIPT = 27
-    TGLANG_LANGUAGE_XML = 28
+    OTHER = 0
+    C = 1
+    CPLUSPLUS = 2
+    CSHARP = 3
+    CSS = 4
+    DART = 5
+    DOCKER = 6
+    FUNC = 7
+    GO = 8
+    HTML = 9
+    JAVA = 10
+    JAVASCRIPT = 11
+    JSON = 12
+    KOTLIN = 13
+    LUA = 14
+    NGINX = 15
+    OBJECTIVE_C = 16
+    PHP = 17
+    POWERSHELL = 18
+    PYTHON = 19
+    RUBY = 20
+    RUST = 21
+    SHELL = 22
+    SOLIDITY = 23
+    SQL = 24
+    SWIFT = 25
+    TL = 26
+    TYPESCRIPT = 27
+    XML = 28
 
 
 ROSETTA_CODE_TO_LANGUAGE = {
-    'C': Language.TGLANG_LANGUAGE_C,
-    'C++': Language.TGLANG_LANGUAGE_CPLUSPLUS,
-    'C-sharp': Language.TGLANG_LANGUAGE_CSHARP,
-    'Dart': Language.TGLANG_LANGUAGE_DART,
-    'Go': Language.TGLANG_LANGUAGE_GO,
-    'Java': Language.TGLANG_LANGUAGE_JAVA,
-    'JavaScript': Language.TGLANG_LANGUAGE_JAVASCRIPT,
-    'JSON': Language.TGLANG_LANGUAGE_JSON,
-    'Kotlin': Language.TGLANG_LANGUAGE_KOTLIN,
-    'Lua': Language.TGLANG_LANGUAGE_LUA,
-    'Objective-C': Language.TGLANG_LANGUAGE_OBJECTIVE_C,
-    'PHP': Language.TGLANG_LANGUAGE_PHP,
-    'PowerShell': Language.TGLANG_LANGUAGE_POWERSHELL,
-    'Python': Language.TGLANG_LANGUAGE_PYTHON,
-    'Ruby': Language.TGLANG_LANGUAGE_RUBY,
-    'Rust': Language.TGLANG_LANGUAGE_RUST,
-    'UNIX-Shell': Language.TGLANG_LANGUAGE_SHELL,
-    'SQL': Language.TGLANG_LANGUAGE_SQL,
-    'Swift': Language.TGLANG_LANGUAGE_SWIFT,
-    'TypeScript': Language.TGLANG_LANGUAGE_TYPESCRIPT
+    'C': Language.C,
+    'C++': Language.CPLUSPLUS,
+    'C-sharp': Language.CSHARP,
+    'Dart': Language.DART,
+    'Go': Language.GO,
+    'Java': Language.JAVA,
+    'JavaScript': Language.JAVASCRIPT,
+    'JSON': Language.JSON,
+    'Kotlin': Language.KOTLIN,
+    'Lua': Language.LUA,
+    'Objective-C': Language.OBJECTIVE_C,
+    'PHP': Language.PHP,
+    'PowerShell': Language.POWERSHELL,
+    'Python': Language.PYTHON,
+    'Ruby': Language.RUBY,
+    'Rust': Language.RUST,
+    'UNIX-Shell': Language.SHELL,
+    'SQL': Language.SQL,
+    'Swift': Language.SWIFT,
+    'TypeScript': Language.TYPESCRIPT
 }

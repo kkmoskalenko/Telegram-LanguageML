@@ -26,7 +26,7 @@ MAX_DEPTH = 50
 if __name__ == '__main__':
     df = pd.read_csv(DATASET_PATH)
 
-    X, y = df.text, df.label
+    X, y = df.content, df.language
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
     vectorizer = TfidfVectorizer(token_pattern=TOKEN_PATTERN, max_features=MAX_FEATURES, norm=None)
